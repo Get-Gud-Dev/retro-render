@@ -6,5 +6,26 @@ This module is used to create ASCII / ANSI / VGA styled web presentations. It ai
 
 In order to make the most out of Retro Render you already have to know how you want to draw your pixels. Retro render is only responsible for creating and managing the Screen they are drawn on, and drawing them given instruction.
 
-## Generate a Screen
+### Initializing and Drawing a Screen
+
+Create a new Renderer like so:
+
+```js
+const Render = require('retro-render')
+
+
+//Provide the ID of a div that will contain your render
+let newRenderer = Render.new( "viewport-tag" )
+
+
+//Generate the screen
+//Provide X resolution, Y resolution, and opional options.
+newRenderer.generateScreen(25, 6, {useSubPixels:false})
+```
+
+### Available Options
+
+| Option | Type | Functionality |
+| ------ | ---- | ------------- |
+| useSubPixels | boolean | Should the renderer draw the sub pixels? |
 

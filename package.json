@@ -1,0 +1,22 @@
+{
+  "name": "retro-render",
+  "version": "0.0.1-jANK",
+  "description": "ASCII/ANSI/Text based rendering for the browser.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Get-Gud-Dev/retro-render.git"
+  },
+  "author": "GettenGud",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Get-Gud-Dev/retro-render/issues"
+  },
+  "homepage": "https://github.com/Get-Gud-Dev/retro-render#readme"
+}

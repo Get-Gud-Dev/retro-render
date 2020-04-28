@@ -14,7 +14,12 @@ This module is used to create ASCII / ANSI / VGA styled web presentations. It ai
 
 * Retro-Render manipulates the DOM direct so you need to be packing this module up alongside the rest of your engine and sending it off to the client.
 
+### Installing CSS
+
+The pub folder of the module contains a simple starter pack that can be used. Additionally a guide to the different DOM tags that are used by the renderer and the CSS that they use is available on the [tags help page](tags.md).
+
 ### Initializing and Drawing a Screen
+The screen is the current, dirty way of manipulating pixels. You can read all about it on the [screen help page](screen.md)
 
 Create a new Renderer like so:
 

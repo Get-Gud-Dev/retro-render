@@ -2,6 +2,10 @@
 
 This module is used to create ASCII / ANSI / VGA styled web presentations. It aims to bring things to the next level by allowing for animated texts and implementation of user interfaces, module frameworks, 3d engines, and more.
 
+## Tests
+
+I wrote .. some .. tests, you can see how to use them yourself on the [tests help page](tests.md)
+
 ## How to use Retro Render
 
 ### Fonts / CSS

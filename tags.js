@@ -21,8 +21,6 @@ module.exports.subPixel = () => {
     let newSubPixelContainer = document.createElement('span')
     newSubPixelContainer.classList.add('subpixel-container')
 
-    
-
     let subPixel0 = document.createElement('span')
     let subPixel1 = document.createElement('span')
     let subPixel2 = document.createElement('span')
@@ -37,7 +35,6 @@ module.exports.subPixel = () => {
     subPixel1.classList.add('subpixel1')
     subPixel2.classList.add('subpixel2')
     subPixel3.classList.add('subpixel3')
-
 
     newSubPixelContainer.appendChild(subPixel0)
     newSubPixelContainer.appendChild(subPixel1)

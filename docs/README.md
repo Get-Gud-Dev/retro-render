@@ -4,6 +4,8 @@ This module is used to create ASCII / ANSI / VGA styled web presentations. It ai
 
 ## How to use Retro Render
 
+### Fonts / CSS
+
 ### You are defining the drawing rules
 
 * In order to make the most out of Retro Render you already have to know how you want to draw your pixels. Retro render is only responsible for creating and managing the Screen they are drawn on, and drawing them given instruction.

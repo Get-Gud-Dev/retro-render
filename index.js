@@ -1,6 +1,5 @@
 const tags = require('./tags')
 
-
 module.exports.new = function(tagName) {
     this.viewport = document.getElementById(tagName)
 
@@ -43,12 +42,12 @@ module.exports.new = function(tagName) {
             //While establishing the first column on every row
             if (column == 0) {
                 //Create a new list for that row's pixels
-                screen.rowPixels[row] = []
+                this.screen.rowPixels[row] = []
 
                 //Generate the row tag and add it to the rows
                 //set
                 let newRow = tags.row()
-                screen.rows.push(newRow)
+                this.screen.rows.push(newRow)
 
                 //Add the new row to viewport
                 this.viewport.appendChild(newRow)

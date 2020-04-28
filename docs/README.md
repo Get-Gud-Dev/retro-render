@@ -4,7 +4,13 @@ This module is used to create ASCII / ANSI / VGA styled web presentations. It ai
 
 ## How to use Retro Render
 
-In order to make the most out of Retro Render you already have to know how you want to draw your pixels. Retro render is only responsible for creating and managing the Screen they are drawn on, and drawing them given instruction.
+### You are defining the drawing rules
+
+    In order to make the most out of Retro Render you already have to know how you want to draw your pixels. Retro render is only responsible for creating and managing the Screen they are drawn on, and drawing them given instruction.
+
+### Browserify or Webpack necessary
+
+    Retro-Render manipulates the DOM direct so you need to be packing this module up alongside the rest of your engine and sending it off to the client.
 
 ### Initializing and Drawing a Screen
 
